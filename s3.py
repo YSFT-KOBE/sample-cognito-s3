@@ -6,7 +6,7 @@ class S3:
                 aws_access_key_id=acskey,
                 aws_secret_access_key=scretkey,
                 aws_session_token = ssntokn,
-                region_name='ap-northeast-1'
+                region_name='<<Region>>'
         )
 
     def upload(self, filename, bucket, key):
