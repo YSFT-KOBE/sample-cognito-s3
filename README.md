@@ -11,6 +11,9 @@ Cognito認証後にS3へファイルをアップロードするサンプルコ�
 * 33行目  
     ClientId='<<ユーザープールのアプリクライアントID>>'
 
+* 57行目
+    IdentityPoolId='<<IDプールのID>>',
+
 * 59行目  
     '<<Provider Names(cognito-idp.<region>.amazonaws.com/<YOUR_USER_POOL_ID>)>>': idToken
  
